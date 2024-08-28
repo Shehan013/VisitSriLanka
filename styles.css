@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+#title{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.images1{
+    display: flex;
+    margin: 2.5%
+}
+
+.images1 img{
+    flex: 1;
+    max-width: 20%;
+    
+}
+
+p{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.places{
+    display: flex;
+}
+
+.main ul{
+    
+}
