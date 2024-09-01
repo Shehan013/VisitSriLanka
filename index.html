@@ -3,9 +3,13 @@
     <head>
         <title>Visit Sri Lanka</title>
         <link rel="stylesheet" href="styles.css">
+        <script lang="JavaScript" src="scripts.js"></script>
     </head>
     <body>
-        <h1 id="title">Visit Sri Lanka</h1>
+        <div class = "simple_animation">
+            <h1 id="title">Visit Sri Lanka</h1>
+        </div>
+        
         <div class="images1">
             <img src="images/beach-and-coconut-tree-swing.jpg" alt="swing, coconut tree and beach-Sun set">
             <img src="images/elepahant.jpg" alt="Elepahant">
@@ -57,6 +61,69 @@
                     </ul>
                 </li>
             </ul>
+        </div>
+        <div class="stats">
+            <h2>SL Tourism Statistics</h2>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>2020</th>
+                    <th>2021</th>
+                    <th>2022</th>
+                    <th>2023(Jan-May)</th>
+                </tr>
+                <tr>
+                    <th>Total</th>
+                    <td>507,704</td>
+                    <td>194,495</td>
+                    <td>719,978</td>
+                    <td>524,486</td>
+                </tr>
+                <tr>
+                    <th>Form UK</th>
+                    <td>55,455</td>
+                    <td>16,646</td>
+                    <td>85,187</td>
+                    <td>42,841</td>
+                </tr>
+                <tr>
+                    <th>Form Ireland</th>
+                    <td>2,294</td>
+                    <td> 559</td>
+                    <td>3,056</td>
+                    <td> 531</td>
+                </tr>
+            </table>
+            <p>Source : <a href="https://srilankahc.uk/sl-tourism-statistics/" target="_blank">Sri Lanka High Commission in the UK</a></p>
+        </div>
+        <div class="review">
+            <h2 class="fdata">How is your experince in Sri Lanka?</h2>
+            <form>
+                <label for="name">Name :</label>
+                <input type="text" id="name"><br><br>
+                <label for="country">Country :</label>
+                <input type="text" if="country"><br><br>
+                <label for="email">Email :</label>
+                <input type="email" id="email"><br><br>
+                <label for="review">Review :</label>
+                <textarea id="review" rows="10" cols="75"></textarea>
+                <input type="button" id="btn" onclick="btnclick()" value="Submit">
+            </form>
+            <div class="yt_videos">
+                <h2 class="ytv">Beauty of Sri Lanka</h2>
+                <iframe src="https://www.youtube.com/embed/f-Sdk3Jjp3I?si=AGEZLBIUCfnrN_me" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <!-- width="560" height="315" -->
+                <iframe src="https://www.youtube.com/embed/8g9ccCkT-u0?si=yXWG5oYFyfoZ_yc3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <iframe src="https://www.youtube.com/embed/rHaykSq0SbU?si=xXCJV-lrx1gDekWZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="links">
+            <h2>More Details:</h2>
+            <a href="https://www.srilanka.travel/">The Official Website of Sri Lanka Tourism</a><br><br>
+            <a href="https://www.facebook.com/tourismsrilanka.gov.lk/">Tourism Sri Lanak FB Page</a><br><br>
+            <a href="https://www.sltda.gov.lk/en">Sri Lanka Tourism Development Authority: SLTDA</a>  
         </div>
     </body>
 </html>

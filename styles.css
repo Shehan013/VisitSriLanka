@@ -9,8 +9,24 @@ a{
 
 #title{
     color: white;
-    text-align: center;
+    /* text-align: center; */
     font-size: 50px;
+}
+
+.simple_animation{
+    width:400px;
+    height: 50px;
+    left: 50%;
+    animation-duration: 5s;
+    animation-name: translate_word;
+    animation-fill-mode: forwards;
+}
+
+@keyframes translate_word{
+    from{
+        transform: translate(0%);}
+    to{
+        transform: translate(50%);}
 }
 
 img{
@@ -33,14 +49,56 @@ p{
     text-align: center;
 }
 
-h2{
-    text-align: center;
-}
-
 .places{
     display: flex;
 }
 
-.main ul{
+.stats{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table, th, td{
+    border: 1px solid white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width:25%;
+    max-width: 80%;
+    padding: 10px;
+    border: 1px solid white;
+    margin: 0 auto;
     
+}
+
+#btn{
+    display: inline;
+    width:25%;
+    padding: 0% 5% 0% 5%;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 75%;     
+}
+
+.fdata{
+    text-align: center;
+}
+
+.yt_vidoes{
+    padding: 10%;
+}
+
+
+iframe{
+    width: 33%;
+    height: 300px;
+}
+
+.ytv{
+    text-align: center;
 }
